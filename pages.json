@@ -1,0 +1,52 @@
+{
+    "pages": [
+		{
+		    "path": "pages/home/index",
+		    "style": {
+		        "navigationBarTitleText": "湖北地质调查院"
+		    }
+		},
+		{
+		    "path": "pages/home/user",
+		    "style": {
+		        "navigationBarTitleText": "个人中心"
+		    }
+		},
+		{
+		    "path": "pages/template/ali/index",
+		    "style": {
+		        "navigationBarTitleText": "支付宝小程序"
+		    }
+		},
+		{
+		    "path": "pages/template/wechat/index",
+		    "style": {
+		        "navigationBarTitleText": "微信小程序"
+		    }
+		}
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"text": "首页",
+			"iconPath": "http://qiniu.ymcxy.com/mgb/mp/icon-home.png",
+			"selectedIconPath": "http://qiniu.ymcxy.com/mgb/mp/icon-home-active.png"
+		}, {
+			"pagePath": "pages/home/user",
+			"text": "个人中心",
+			"iconPath": "http://qiniu.ymcxy.com/mgb/mp/icon-personal.png",
+			"selectedIconPath": "http://qiniu.ymcxy.com/mgb/mp/icon-personal-active.png"
+		}]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe"
+    },
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}

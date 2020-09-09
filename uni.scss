@@ -1,0 +1,67 @@
+@import 'uview-ui/theme.scss';
+
+/*每个页面公共css */
+page {
+	min-height: 100%;
+	display: flex;
+}
+
+/* #ifdef MP-BAIDU */
+page {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+swan-template {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+}
+
+/* 原生组件模式下需要注意组件外部样式 */
+custom-component {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+}
+
+/* #endif */
+
+/* #ifdef MP-ALIPAY */
+page {
+	min-height: 100vh;
+}
+
+/* #endif */
+
+/* 原生组件模式下需要注意组件外部样式 */
+.conntainer {
+	text-align: center;
+}
+.title {
+	height: 100upx;
+	line-height: 100upx;
+	text-align: left;
+	color: rebeccapurple;
+}
+.item {
+	margin-bottom: 30upx;
+	border-bottom: 1px solid rebeccapurple;
+	width: 750upx;
+	padding: 0 30upx;
+	box-sizing: border-box;
+}
+.avatar {
+	width: 200upx;
+	height: 200upx;
+	border-radius: 100%;
+}
+.content {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	padding: 20upx;
+	text-align: left;
+	font-size: 30upx;
+}
