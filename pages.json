@@ -18,14 +18,6 @@
 				"navigationBarTitleText": "组件"
 			}
 		},
-		// avatarCropper-头像裁剪
-		{
-			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
-			"style": {
-				"navigationBarTitleText": "头像裁剪",
-				"navigationBarBackgroundColor": "#000000"
-			}
-		},
 		// 演示-工具
 		{
 			"path": "pages/example/js",
@@ -40,6 +32,13 @@
 				"navigationBarTitleText": "模板"
 			}
 		},
+		// 演示-平台能力
+		{
+			"path": "pages/example/platform",
+			"style": {
+				"navigationBarTitleText": "平台功能整合"
+			}
+		},
 		// fullScreen-压窗屏
 		{
 			"path": "uview-ui/components/u-full-screen/u-full-screen",
@@ -51,6 +50,14 @@
 					"backgroundColor": "rgba(0,0,0,0)",
 					"popGesture": "none"
 				}
+			}
+		},
+		// avatarCropper-头像裁剪
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
 			}
 		}
 	],
@@ -825,6 +832,16 @@
 					}
 				}
 			]
+		},{
+			"root": "pages/platform",
+			"pages": [
+				{
+					"path": "wechat",
+					"style": {
+						"navigationBarTitleText": "wx平台能力"
+					}
+				}
+			]
 		}
 	],
 	"preloadRule": {
@@ -861,6 +878,12 @@
 				"iconPath": "static/uview/example/template.png",
 				"selectedIconPath": "static/uview/example/template_select.png",
 				"text": "模板"
+			},
+			{
+				"pagePath": "pages/example/platform",
+				"iconPath": "static/uview/example/js_bak.png",
+				"selectedIconPath": "static/uview/example/js_select_bak.png",
+				"text": "平台功能整合"
 			}
 		]
 	}
